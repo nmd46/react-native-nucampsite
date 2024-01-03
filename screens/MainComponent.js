@@ -53,7 +53,7 @@ const AboutNavigator = () => {
   const Stack = createStackNavigator();
 
   return (
-    <Stack.Navigator initialRouteName="About" screenOptions={screenOptions}>
+    <Stack.Navigator screenOptions={screenOptions}>
       <Stack.Screen name="About" component={AboutScreen} />
     </Stack.Navigator>
   );
@@ -63,7 +63,7 @@ const ContactNavigator = () => {
   const Stack = createStackNavigator();
 
   return (
-    <Stack.Navigator initialRouteName="Contact" screenOptions={screenOptions}>
+    <Stack.Navigator screenOptions={screenOptions}>
       <Stack.Screen
         name="Contact"
         component={ContactScreen}
