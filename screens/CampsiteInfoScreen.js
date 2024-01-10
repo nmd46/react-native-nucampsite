@@ -97,14 +97,14 @@ const CampsiteInfoScreen = ({ route }) => {
             leftIconContainerStyle={{ paddingRight: 10 }}
             onChangeText={(author) => setAuthor(author)}
             value={author}
-          ></Input>
+          />
           <Input
             placeholder="Comment"
             leftIcon={{ type: "font-awesome", name: "comment-o" }}
             leftIconContainerStyle={{ paddingRight: 10 }}
             onChangeText={(text) => setText(text)}
             value={text}
-          ></Input>
+          />
           <View style={{ margin: 10 }}>
             <Button
               title="Submit"
